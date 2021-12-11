@@ -2,7 +2,7 @@
   "name": "ethereum-boilerplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://app.discovar.app",
+  "homepage": "http://jaecob.d1.github.io/DiscovARwebapp",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@react-native-mapbox-gl/maps": "github:react-native-mapbox-gl/maps",
