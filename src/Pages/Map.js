@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { useMoralis, useNewMoralisObject } from "react-moralis";
 import Dar from "../Dar.png";
 
+//import NFTBalance from '../components/NFTBalance/NFTBalance';
 import './Map.css';
 // import {useDispatchMap} from "./hooks/mapHook.jsx";
 
@@ -89,6 +90,7 @@ return (
     <div className="Place">
       Longitude: {viewport.longitude} | latitude: {viewport.latitude}
     </div>
+    {/* <NFTBalance /> */}
     <button align="center"
       onClick={() => setUserData({
         nft: "placeholder",

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react";
-//import { getEllipsisTxt } from "../helpers/formatters";
+import { getEllipsisTxt } from "../helpers/formatters";
 import Blockie from "./Blockie";
 import { Input } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
