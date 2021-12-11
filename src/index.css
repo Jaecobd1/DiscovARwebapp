@@ -15,8 +15,7 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
+ul[class] ol[class],
 li,
 figure,
 figcaption,
@@ -31,7 +30,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: #E3EAFB;
+  background-color: #e3eafb;
 }
 
 ul[class],
@@ -45,6 +44,7 @@ a:not([class]) {
 
 img {
   max-width: 100%;
+  padding-right: 10px;
   display: block;
 }
 
@@ -57,4 +57,8 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+.logo {
+  padding-right: 30px;
 }
